@@ -1,0 +1,15 @@
+max_trabajadores: 4
+tamano_lote: 5
+resolucion: "1024x1024"
+directorio_salida: "imagenes_generadas"
+archivo_prompts: "prompts.txt"
+modo: "batch"
+
+api:
+  proveedor: "stabilityai"
+  stabilityai:
+    api_key_env: "STABILITY_API_KEY"
+    model: "stable-diffusion-xl-1024-v1-0"
+    output_format: "png"
+    cfg_scale: 7
+    steps: 30
